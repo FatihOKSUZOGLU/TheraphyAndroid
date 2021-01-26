@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="176dp"
+    android:outlineAmbientShadowColor="@color/aquamarine"
+    android:outlineSpotShadowColor="@color/aquamarine"
+    android:background="@drawable/header"
+    android:gravity="bottom"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:elevation="10dp"
+        android:outlineAmbientShadowColor="#FFFFFF"
+        app:cardCornerRadius="40dp">
+
+        <ImageView
+            android:id="@+id/HomeImage"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/circle"
+            android:outlineProvider="none"
+            android:padding="3dp"
+            android:scaleType="fitCenter" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/nameHomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:text="Fatih OKSUZOGLU"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/mailHomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fatih@hotmail.com"
+        android:textAlignment="center">
+
+    </TextView>
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/profile"
+            android:icon="@drawable/ic_account"
+            android:title="My Profile"></item>
+        <item android:id="@+id/current_session"
+            android:icon="@drawable/ic_message"
+            android:title="Current Session"></item>
+        <item android:id="@+id/mytheraphy"
+            android:icon="@drawable/ic_message"
+            android:title="My All Sessions"></item>
+        <item android:id="@+id/myrequests"
+            android:icon="@drawable/ic_message"
+            android:title="My Requests"></item>
+        <item android:id="@+id/Tests"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="Tests"></item>
+        <item android:id="@+id/exit"
+            android:icon="@drawable/ic_exit"
+            android:title="Sign Out"></item>
+    </group>
+
+    <item android:title="Psychologist">
+        <menu>
+            <item android:id="@+id/Seniors"
+                android:icon="@drawable/ic_list"
+                android:title="Seniors"></item>
+            <item android:id="@+id/Inexperienced"
+                android:icon="@drawable/ic_list"
+                android:title="Inexperienced"></item>
+
+        </menu>
+    </item>
+</menu>

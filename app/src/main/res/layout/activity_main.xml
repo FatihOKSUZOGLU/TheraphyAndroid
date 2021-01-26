@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/MainHead"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/imgLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/circle_border">
+
+            <ImageView
+                android:id="@+id/Logoimage"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/logo" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/MainHeadText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgLogo"
+            android:layout_centerHorizontal="true"
+            android:text="Whenever you want."
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/LoginChatRelative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp">
+
+        <Button
+            android:id="@+id/ChatbotButton"
+            android:layout_width="208dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:background="@color/aquamarine"
+            android:onClick="LetsBegin"
+            android:text="LET'S BEGIN"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <RelativeLayout
+            android:id="@+id/Mainbottontexts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ChatbotButton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="100dp"
+            android:orientation="horizontal"
+            tools:layout_centerHorizontal="true"
+            tools:layout_marginLeft="100dp">
+
+            <TextView
+                android:id="@+id/AlreadyText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:text="Already signed up ?"
+                android:textColorHint="#353535"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/LoginButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="false"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/AlreadyText"
+                android:background="?android:attr/selectableItemBackground"
+                android:backgroundTint="@android:color/transparent"
+                android:onClick="Login"
+                android:text="Login"
+                android:textColor="@color/aquamarine"
+                android:textColorLink="@color/aquamarine" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "916733230189",
+    "firebase_url": "https://therapy-d1f58-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "therapy-d1f58",
+    "storage_bucket": "therapy-d1f58.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:916733230189:android:3d9079dc7a42918b0f1364",
+        "android_client_info": {
+          "package_name": "com.project.theraphy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "916733230189-7bbcju5tj2fvrnd53fcd7hs4blf9gb4l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR1VLTTq7oaRzicx7_FCnrlhxgz5aAFHw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "916733230189-7bbcju5tj2fvrnd53fcd7hs4blf9gb4l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

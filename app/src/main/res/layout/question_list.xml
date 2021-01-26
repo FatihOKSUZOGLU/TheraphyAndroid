@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/white">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerviewquestions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_below="@id/recyclerviewquestions"
+        android:text="Finish Test"
+        android:id="@+id/EndofTest"
+        android:layout_height="wrap_content">
+
+    </Button>
+</RelativeLayout>
